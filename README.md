@@ -1,6 +1,6 @@
 # Inist-tools
 
-Installation automatisé de l'[inist-tools](https://github.com/Inist-CNRS/inist-tools) inist-tools avec support de zsh. 
+Installation automatisé de l'[inist-tools](https://github.com/Inist-CNRS/inist-tools) avec support de zsh. 
 
 
 ### Installation
