@@ -30,11 +30,14 @@ fi
 
 
 
-# Desactivation of all service for inist in default
-for service in shell ${INIST_SERVICES:="desktop apt docker github npm curl bower wget"}
+# Activation of all service for inist in default
+declare -a array=("desktop" "apt" "docker" "github" "npm" "curl" "bower" "wget")
+
+for service in "${array[@]}"
 do
-  /opt/inist-tools/inistexec $service off
+  /opt/inist-tools/inistexec "$service" on
 done;
+
 
 # Reload environnement
 if [ $env = 'zsh' ]; then
