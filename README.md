@@ -7,7 +7,7 @@ Installation automatisé de l'[inist-tools](https://github.com/Inist-CNRS/inist-
 
 	
 	wget https://bitly.com/inist-tools-install
-	sh inist-tools-install
+	bash inist-tools-install
 	
 Lors de l'installation le terminal vous demandera si vous utilisez bash ou zsh. L'installation se fera donc sur le shell choisi.
 
@@ -17,4 +17,3 @@ Vous pouvez voir quelles sont les services activés par la commande:
 
 	
 	inist-status
-	
